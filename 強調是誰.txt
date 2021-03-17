@@ -1,3 +1,0 @@
-git config --global user.name "leeyo"
-git config --global user.email "10212141@gm.nttu.edu.tw"
-
