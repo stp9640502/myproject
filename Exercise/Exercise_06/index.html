@@ -6,18 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>個人簡歷網頁</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=PT+Sans&display=swap"
+        rel="stylesheet">
     <style>
         body {
             background-color: rgb(80, 80, 80);
             color: white;
-            text-align: center;
+            font-family: 'PT Sans', sans-serif;
         }
 
         nav {
-            background-color: purple;
-            color: rgb(220, 220, 22);
+            background-color: rgb(226, 21, 226);
             font-size: 2rem;
             font-family: DFkai-sb;
+        }
+
+        h1 {
+            color: red
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: yellow
         }
 
         article {
@@ -29,7 +43,7 @@
         }
 
         a:visited {
-            color: green;
+            color: rgb(30, 30, 30);
         }
 
         a:hover {
@@ -38,6 +52,30 @@
 
         a:active {
             color: blue;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid lightgreen;
+            text-align: center;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .td1 {
+            width: 30%;
+        }
+
+        .td2 {
+            width: 60%;
+        }
+
+        .td3 {
+            width: 10%;
+        }
+
+        section {
+            width: 70%;
         }
     </style>
 </head>
@@ -51,16 +89,62 @@
         <article>
             <h1 href="myself">我的自我介紹</h1>
             <section>
-                這次雖然是四個月才發布新版本，但是對於大多數的員工仍然是三個月的開發週期。新版本順利的原因是新開發流程的開發範圍控制。詳見 https://poedb.tw/tw/Ritual#blog73 的 3.13 延後至 2021 年 1 月 16 日。
+                <h3>［個人簡介］</h3>
+                我來自高雄岡山的一個平凡小家庭，我在家中排行第二，個性開朗、理性、有責任心與樂於助人
+                ，興趣是唱歌和聽音樂。父母從小就時常找機會教育我和我哥哥並與我們探討許多與之相關的事情，
+                再利用這些機會來培養我們獨立思考的能力，同時教導我們認真負責的觀念，期望我們能在做任何事
+                之前謹慎思考並且會為了自己的所作所為負責。
+            </section>
+            <section>
+                <h3>［求學歷程］</h3>
+                資管系是屬於商業管理這方面的領域，主要就是管理跟資訊有關的東西。來資管的原因是我高中
+                數學還不錯，同時對程式感興趣，而資管系就剛好同時擁有這兩項特點。在課程上特地選修了物件導
+                向程式語言課程，因為現今各種軟體撰寫幾乎都是依靠著這類語言，所以特別為了加強這方面的能力
+                選修了這門課程。在校成績不錯，師長評價皆為肯定。升大二暑假時曾參加過勞工局所舉辦的青年職
+                場體驗營，在結訓時體驗營的負責人的評價是只有我們班才是他們想繼續辦下去的動力。而我與系上
+                同學相處情況不錯，基本上我都是擔任開心果的腳色。
+            </section>
+            <section>
+                <h3>［工讀實習］</h3>
+                曾在燦坤實業股份有限公司工作過，主要職務是整理店面，當時有清點過物資和做宣傳。剛開始
+                主要是過去幫忙清點災損物資，在清點的同時真正的了解到貨號為何物，不再像是課堂所學得這麼飄
+                渺。再來就是幫忙做宣傳，連續在不同地點跑了好幾天做宣傳，曾聽店長說在之後幾日的日營業額有
+                達到數百萬至千萬左右。最後則是在協助客人領取贈品的一些事項，在此過程中了解到不同事情的輕
+                重緩急是不同的，有些事情永遠優先於其他事項。而在整理店面的過程中，店長曾很肯定我的工作態
+                度，並且在與其他同事間的相處都很愉快，他們在有需要的時候也常常找我去幫忙。
+            </section>
+            <section>
+                <h3>［未來規劃］</h3>
+                我目前最想從事的是軟體工程師，這職務是在編寫各種不同需求所要求的程式軟體，包括手機APP
+                、各式電腦遊戲與各種電腦系統軟體。我認為我的優勢為我本身是相關科系的學生，並且自認自己的
+                數學能力和邏輯思考的能力還算不錯，常常會在與人討論事務的時候情不自禁的先分析有關於那件事
+                物各種面向的問題。我希望先工作一段時間熟悉工作內容後，在漸漸地去接觸公司內部不同的工作。
+            </section>
 
-未來計劃是三個月的開發以及一個月的品質保證和微調，但這仍然是每三個月發布一次新版本，理想狀況下每個新版本會在一個月前準備好內容。例如 3.14 的開發在 12 月中開始，在 3 月中完成，並在 4 月中發布。
+
             </section>
         </article>
         <article>
-            <h1 id="Portfolio">作品</h1>
-            <section>
-
-            </section>
+            <h1 id="Portfolio">作品集</h1>
+            <table align="center">
+                <tr>
+                    <td class="td1">檔案名稱</td>
+                    <td class="td2">檔案簡介</td>
+                    <td class="td3">超連結</td>
+                </tr>
+                <tr>
+                    <td class="td1">Exercise</td>
+                    <td class="td2">不知要放啥,先放個Exercise壓壓驚</td>
+                    <td class="td3"><a href="https://stp9640502.github.io/myproject/Exercise/" target="_blank">🚀</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">Lab</td>
+                    <td class="td2">不知要放啥,先放個Lab壓壓驚</td>
+                    <td class="td3"><a href="https://stp9640502.github.io/myproject/Lab/" target="_blank">🚀</a>
+                    </td>
+                </tr>
+            </table>
         </article>
     </main>
 </body>
