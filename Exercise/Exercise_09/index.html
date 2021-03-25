@@ -5,76 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercise_09</title>
+    <style>
+        table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #b5e3ff;
+        }
+
+        #top {
+            border-top: solid 3px black;
+        }
+
+        tr:nth-child(2),
+        tr:nth-child(11) {
+            background-color: #ffff00;
+        }
+
+        tr:nth-child(3) td:nth-child(1) {
+            background-color: #9acd32;
+        }
+
+        tr:nth-child(7) td:nth-child(1) {
+            background-color: #008000;
+        }
+
+        tr:nth-child(3) td:nth-child(4),
+        tr:nth-child(7) td:nth-child(4) {
+            background-color: #ffb6c1;
+        }
+
+        tr:nth-child(6) td:nth-child(3) {
+            background-color: #ff00ff;
+        }
+
+        tr:nth-child(8) td:nth-child(2),
+        tr:nth-child(10) td:nth-child(2) {
+            background-color: #32cd32;
+        }
+
+        .money {
+            text-align: right;
+        }
+    </style>
 </head>
 
 <body>
     <table>
-        <th>資產負債表</th>
         <tr>
-            <td colspan="3"></td>
-            <td colspan="3"></td>
+            <th colspan="6">資產負債表</th>
+        </tr>
+        <tr>
+            <td colspan="3" id="top">資產</td>
+            <td colspan="3" id="top">負債及股東權益</td>
         </tr>
         <tr>
             <td rowspan="4">流動資產</td>
             <td>現金</td>
-            <td>399,526</td>
-            <td rowspan="3">流動資產</td>
+            <td class="money">399,526</td>
+            <td rowspan="3">流動負債</td>
             <td>短期借款</td>
-            <td>1,634,870</td>
+            <td class="money">1,634,870</td>
         </tr>
         <tr>
             <td>存貨</td>
-            <td>819,954</td>
+            <td class="money">819,954</td>
             <td></td>
-            <td>1,912,740</td>
+            <td class="money">1,912,740</td>
 
         </tr>
         <tr>
             <td>應收帳款</td>
-            <td>945,494</td>
+            <td class="money">945,494</td>
             <td>應付帳款</td>
-            <td>277,870</td>
+            <td class="money">277,870</td>
         </tr>
         <tr>
             <td></td>
-            <td>2,164,974</td>
+            <td class="money">2,164,974</td>
             <td>非流動負債</td>
             <td>長期借款</td>
-            <td>69,600</td>
+            <td class="money">69,600</td>
         </tr>
         <tr>
             <td rowspan="4">非流動資產</td>
-            <td rowspan="4"></td>
+            <td rowspan="4">固定資產</td>
             <td></td>
             <td>負債合計</td>
             <td></td>
-            <td>1,982,340</td>
+            <td class="money">1,982,340</td>
         </tr>
         <tr>
             <td></td>
             <td rowspan="2">股東權益</td>
             <td>股本</td>
-            <td>1,102,186</td>
+            <td class="money">1,102,186</td>
         </tr>
         <tr>
-            <td>1,361,096</td>
+            <td class="money">1,361,096</td>
             <td>保留盈餘</td>
-            <td>441,544</td>
+            <td class="money">441,544</td>
         </tr>
         <tr>
             <td></td>
             <td>股東權益合計</td>
             <td></td>
-            <td>1,543,730</td>
+            <td class="money">1,543,730</td>
         </tr>
         <tr>
             <td>資產合計</td>
             <td></td>
-            <td>3,526,070</td>
+            <td class="money">3,526,070</td>
             <td>負債及股東合計</td>
             <td></td>
-            <td>3,526,070</td>
+            <td class="money">3,526,070</td>
         </tr>
     </table>
 </body>
