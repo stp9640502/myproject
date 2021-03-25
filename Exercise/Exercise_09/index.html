@@ -16,8 +16,46 @@
             background-color: #b5e3ff;
         }
 
-        #top {
+        tr:nth-child(2),
+        tr:nth-child(3),
+        tr:nth-child(7),
+        tr:nth-child(11),
+        tr:nth-child(6) td:nth-child(3),
+        tr:nth-child(6) td:nth-child(4),
+        tr:nth-child(6) td:nth-child(5),
+        tr:nth-child(8) td:nth-child(2),
+        tr:nth-child(8) td:nth-child(3),
+        tr:nth-child(8) td:nth-child(4) {
             border-top: solid 3px black;
+        }
+
+        tr:nth-child(2),
+        tr:nth-child(3),
+        tr:nth-child(7),
+        tr:nth-child(2) td:nth-child(2),
+        tr:nth-child(3) td:nth-child(4),
+        tr:nth-child(6) td:nth-child(3),
+        tr:nth-child(7) td:nth-child(4),
+        tr:nth-child(8) td:nth-child(2),
+        tr:nth-child(10) td:nth-child(2) {
+            border-left: 3px solid black;
+        }
+
+        tr:nth-child(2),
+        tr:nth-child(3),
+        tr:nth-child(4),
+        tr:nth-child(5),
+        tr:nth-child(6),
+        tr:nth-child(7),
+        tr:nth-child(8),
+        tr:nth-child(9),
+        tr:nth-child(10) {
+            border-right: 2px solid black;
+        }
+
+        tr:nth-child(11) td:nth-child(3),
+        tr:nth-child(11) td:nth-child(6) {
+            border-bottom: 2px black dashed;
         }
 
         tr:nth-child(2),
@@ -46,6 +84,10 @@
         tr:nth-child(10) td:nth-child(2) {
             background-color: #32cd32;
         }
+
+        /*tr>td {
+            border: solid 2px rgb(200, 200, 200);
+        }*/
 
         .money {
             text-align: right;
