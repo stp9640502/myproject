@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 11</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        body>div {
+            background-color: rgb(245, 159, 0);
+            min-height: 10vh;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /* *{
+            border: solid 1px black;
+        }*/
+
+        main {
+            background-color: lightgrey;
+            min-height: 85vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        main>span {
+            display: flex;
+            flex-direction: row;
+            max-width: 40%;
+            flex-wrap: wrap;
+            align-content:flex-start;
+            padding: 10px;
+        }
+
+        span>span {
+            display: flex;
+            flex-direction: column;
+            border: black 1px solid;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: lightseagreen;
+            min-height: 5vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <h2>MyShop</h2>
+        <span>
+            <h4><a>商品</a> <a>購物車</a></h4>
+        </span>
+    </div>
+    <main>
+        <div>
+            <p>商品分類</p>
+            <p><a href="#">所有商品</a></p>
+            <p><a href="#">暢銷商品</a></p>
+            <p><a href="#">本日精選</a></p>
+            <p><a href="#">新品上市</a></p>
+        </div>
+        <span>
+            <span><img src="https://i.imgur.com/ZMpETy0b.gif"><br><h2>NT$ 150</h2></span>
+            <span><img src="https://i.imgur.com/ODZ7Zpzb.jpg"><br><h2>NT$ 300</h2></span>
+            <span><img src="https://i.imgur.com/qT3MWAbb.jpg"><br><h2>NT$ 666</h2></span>
+            <span><img src="https://i.imgur.com/2G16qPab.jpg"><br><h2>NT$ 85</h2></span>
+            <span><img src="https://i.imgur.com/fziT4jzb.gif"><br><h2>NT$ 999</h2></span>
+        </span>
+    </main>
+    <footer>footer</footer>
+</body>
+
+</html>
